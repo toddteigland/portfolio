@@ -14,12 +14,12 @@
       <nav
         class="flex justify-between sticky top-0 z-50 items-center bg-slate-200 h-16 w-300 text-xl"
       >
-      <button class="lg:hidden px-2 py-1" id="menu-toggle">☰</button>
+      <!-- <button class="lg:hidden px-2 py-1" id="menu-toggle">☰</button> -->
 
         <div class="ml-8 text-3xl">
           <h1>Todd Teigland</h1>
         </div>
-        <div>
+        <div class="links">
           <ul class="lg:flex space-x-4 last:pr-10">
             <a href="#about">
               <li
@@ -76,9 +76,9 @@
           <!-- ----------------------------------ABOUT SECTION---------------------------------------------------------------------------------------------------------------->
           <div class="rounded-xl h-auto w-full pb-40">
             <div id="about" class="flex justify-center mt-16 text-3xl">
-              <h1 id="projects-title">About Me</h1>
+              <h1 id="projects-title">A Little About Me</h1>
             </div>
-            <div class="flex m-16 justify-center gap-20">
+            <div id="boxes" class="flex m-16 justify-center gap-20">
               <div id="col1" class="flex">
                 <div
                   id="box1"
@@ -127,7 +127,7 @@
               </div>
             </div>
             <!-- -----------------------------------Wave SECTION------------------------------------------------------------------------------------------------------->
-            <div class="w-full mt-[-700px] z-10">
+            <div id="waves" class="w-full mt-[-700px] z-10">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
                 <path
                   fill="#a2d9ff"
@@ -146,11 +146,12 @@
               <h1 class="p-20">Projects</h1>
             </div>
             <div
-              class="absolute top-[28%] left-[48%] rounded-xl p-2 shadow-2xl bg-slate-200"
+              id="slideTitle"
+              class="absolute top-[28%] left-[48%] rounded-xl p-2 shadow-2xl bg-slate-200 text-xl"
             >
               <h2
-                id="slideTitle"
-                class="text-center text-xl decoration-solid"
+                
+                class="text-center decoration-solid"
               ></h2>
             </div>
             <div
@@ -182,7 +183,7 @@
               </div>
             </div>
           </div>
-          <div class="w-full">
+          <div id="bg-computer" class="w-full">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path
                 fill="#a2d9ff"
