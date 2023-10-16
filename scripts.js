@@ -117,3 +117,9 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", handleScroll);
 });
 
+const menuToggle = document.getElementById('menu-toggle');
+const menuItems = document.querySelector('.lg\\:flex');
+
+menuToggle.addEventListener('click', () => {
+  menuItems.classList.toggle('menu-open');
+});

@@ -75,3 +75,37 @@
   transform: translateX(0); /* Slide to the original position */
   transition: transform 1s ease-out;
 }
+
+@media (max-width: 640px) {
+  .lg\\:flex {
+    display: none;
+  }
+
+  .menu-open {
+    display: flex;
+  }
+}
+@media (max-width: 640px) {
+  #col1, #col2 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 640px) {
+  .fa {
+    position: relative;
+    margin: 0.5rem 0;
+  }
+}
+@media (max-width: 640px) {
+  .mySlides {
+    height: auto;
+  }
+  #slideTitle {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 640px) {
+  #box1, #box2, #box3 {
+    width: 90%;
+  }
+}
