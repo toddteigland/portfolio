@@ -1,0 +1,77 @@
+.bg-pj-coffee {
+  background-image: url('./Art/slides/coffee2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s;
+}
+.bg-pj-coffee:hover {
+  background-image: url('./Art/slides/coffee.png');
+}
+.bg-pj-moonshot {
+  background-image: url('./Art/slides/moonshot-homepage.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-pj-moonshot:hover {
+  background-image: url('./Art/slides/crypto.gif');
+}
+.bg-pj-kanuck {
+  background-image: url('./Art/slides/kanuck_homepage.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-pj-kanuck:hover {
+  background-image: url('./Art/slides/kanuck_homepage2.png');
+}
+.svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+
+}
+/* .background-texture {
+  background-image: url(./Art/textured_paper.png);
+} */
+
+.projects-background {
+  background-image: url(./Art/mac-screen.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  /* border-radius: 10px; */
+  background-repeat: no-repeat;
+}
+
+.dot {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color .6s ease;
+  
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.enter-from-right {
+  transform: translateX(400%); /* Slide off-screen to the right */
+  transition: transform 1s ease-out;
+}
+.enter-from-left {
+  transform: translateX(-200%); /* Slide off-screen to the left */
+  transition: transform 1s ease-out;
+}
+.icon-active {
+  transform: translateX(0); /* Slide to the original position */
+  transition: transform 1s ease-out;
+}
