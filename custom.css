@@ -1,12 +1,15 @@
+body{
+  font-family: "Nanum Gothic";
+}
 .bg-pj-coffee {
-  background-image: url('./Art/slides/coffee2.png');
+  background-image: url('./Art/slides/coffee\ map.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   transition: 1s;
 }
 .bg-pj-coffee:hover {
-  background-image: url('./Art/slides/coffee.png');
+  background-image: url('./Art/slides/coffee\ products.png');
 }
 .bg-pj-moonshot {
   background-image: url('./Art/slides/moonshot-homepage.png');
@@ -34,16 +37,15 @@
   width: 100%;
 
 }
-/* .background-texture {
+.background-texture {
   background-image: url(./Art/textured_paper.png);
-} */
+}
 
 .projects-background {
   background-image: url(./Art/mac-screen.jpg);
   background-size: cover;
   width: 100%;
   height: 1000px;
-  /* border-radius: 10px; */
   background-repeat: no-repeat;
 }
 
@@ -76,70 +78,6 @@
   transition: transform 1s ease-out;
 }
 
-@media (max-width: 1100px) {
-  .links ul {
-    display: flex;
-    flex-direction: row;
-  }
-  #boxes {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    width: 100%;
-    height: auto;
-    gap: 2em;
-  }
-  #box2 {
-    width: 80%;
-    height: auto;
-    padding: 5%;
-  }
-  #box3 {
-    margin: 0 4em;
-  }
-  #waves {
-    /* margin-top: -960px; */
-  }
-  #projects {
-    /* margin-top: 450px; */
-  }
-  #projects h1 {
-    margin-top: -60px;
-  }
-  #slideTitle {
-    margin-top: -40px;
-    margin-left: -95px;
-    display:flex;
-    align-content: center;
-  }
-  .myslides {
-    width: 550px;
-    height: auto;
-  }
-  .projects-background {
-    /* background-image: none; */
-    height: 400px;
-  }
-  #skills {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 640px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute !important;
-  }
-  nav ul {
-    /* visibility: hidden; */
-    padding: 2px;
-    /* margin-left: 20px; */
-  }
-  #projects {
-    margin-top: 40px;
-  }
-
+#slideTitle {
+  scroll-margin-top: 75px;
 }

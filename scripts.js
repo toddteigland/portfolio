@@ -31,53 +31,6 @@ function showSlides(n) {
   title.textContent = slideTitles[slideIndex - 1];
 }
 
-//Change About Me layout on scroll
-// window.addEventListener("scroll", function () {
-//   const row1 = document.getElementById("row1");
-//   const row2 = document.getElementById("row2");
-//   const box2 = document.getElementById("box2");
-//   const box3 = document.getElementById("box3");
-//   const title = this.document.getElementById("projects-title");
-
-
-//   // Check if the page is scrolled
-//   if (window.scrollY > 0) {
-//     // row1.classList.remove("justify-end");
-//     row1.classList.remove("gap-20");
-//     box2.classList.remove("w-[600px]");
-//     box2.classList.remove("h-[350px]");
-//     box3.classList.remove("mt-[-220px]");
-
-//     title.classList.add("mt-40")
-//     // row1.classList.add("justify-center");
-//     row1.classList.add("gap-10");
-//     box2.classList.add("mt-20");
-//     box2.classList.add("w-[400px]");
-//     box2.classList.add("h-[250px]");
-
-
-//     // Move the box from row2 to row1
-//     row1.appendChild(box3);
-//   } else {
-//     // row1.classList.add("justify-end");
-//     row1.classList.add("gap-20");
-//     // row1.classList.remove("justify-center");
-//     row1.classList.remove("gap-10");
-//     box2.classList.remove("mt-20");
-//     box2.classList.remove("w-[400px]");
-//     box2.classList.remove("h-[250px]");
-//     title.classList.remove("mt-40")
-//     // row2.classList.add("justify-end");
-//     box2.classList.add("w-[600px]");
-//     box2.classList.add("h-[350px]");
-//     box3.classList.add("mt-[-220px]");
-
-    
-//     // Move the box back to row2 from row1
-//     row2.appendChild(box3);
-//   }
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
   
   const handleScroll = () => {
