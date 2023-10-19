@@ -1,6 +1,9 @@
 body{
   font-family: "Nanum Gothic";
 }
+html {
+  scroll-behavior: smooth;
+}
 .bg-pj-coffee {
   background-image: url('./Art/slides/coffee\ map.png');
   background-size: contain;
