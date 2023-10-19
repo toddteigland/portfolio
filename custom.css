@@ -76,7 +76,7 @@
   transition: transform 1s ease-out;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1100px) {
   .links ul {
     display: flex;
     flex-direction: row;
@@ -88,16 +88,21 @@
     margin-left: 0;
     width: 100%;
     height: auto;
-    gap: 20px;
+    gap: 2em;
+  }
+  #box2 {
+    width: 80%;
+    height: auto;
+    padding: 5%;
   }
   #box3 {
-    margin: 0 20px;
+    margin: 0 4em;
   }
   #waves {
-    margin-top: -960px;
+    /* margin-top: -960px; */
   }
   #projects {
-    margin-top: 450px;
+    /* margin-top: 450px; */
   }
   #projects h1 {
     margin-top: -60px;
@@ -119,4 +124,22 @@
   #skills {
     margin-left: 0;
   }
+}
+
+@media (max-width: 640px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute !important;
+  }
+  nav ul {
+    /* visibility: hidden; */
+    padding: 2px;
+    /* margin-left: 20px; */
+  }
+  #projects {
+    margin-top: 40px;
+  }
+
 }
