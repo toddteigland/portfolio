@@ -1,5 +1,5 @@
 let slideIndex = 1;
-let slideTitles = ['On the Run - Coffee Ordering app','Moonshot - Crypto/Stock Portfolio Tracker', 'Kanuck Auto - Used Vehicle sales']
+let slideTitles = ['On the Run - Coffee Ordering app','Moonshot - Crypto/Stock Portfolio Tracker', 'Kanuck Auto - Used Vehicle sales', 'Tweeter - Ajax Twitter clone']
 showSlides(slideIndex);
 
 // Next/previous controls

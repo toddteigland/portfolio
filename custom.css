@@ -32,6 +32,15 @@ html {
 .bg-pj-kanuck:hover {
   background-image: url('./Art/slides/kanuck_homepage2.png');
 }
+.bg-pj-tweeter {
+  background-image: url('./Art/slides/tweeter.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-pj-tweeter:hover {
+  background-image: url('./Art/slides/tweeter2.png');
+}
 .svg {
   position: absolute;
   left: 0;
